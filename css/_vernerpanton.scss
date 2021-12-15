@@ -22,7 +22,7 @@
     .dato{
     position: absolute;
     right:40px;
-    top: 500px;
+    top: 515px;
     font-size: 15px;
     }
 
@@ -46,12 +46,17 @@
     .card-item-5{
         position: absolute;
         left: 755px;
-        top: 985px;
+        top: 1010px;
     }
     .v1{
         color: black;
         left: 1px;
         line-height: 25px;
+        right: -100px;
+        top: 10px;
+        width: 50%;
+        position: relative;
+        list-style: none;
     }
 
     .v2{

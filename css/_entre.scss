@@ -1,9 +1,11 @@
 .card-container{
     background-image: url("../Entre/baggrund.jpeg");
-    opacity: 80%;
+    opacity: 85%;
     margin: 35px;
     display: flex;
     height: 630px;
+    border: black; 
+    border-style: solid;
 }
 
 .flexbox-item{
@@ -19,6 +21,7 @@ right: -100px;
 top: 10px;
 position: relative;
 color: white;
+text-shadow: 1px 1px #000000;
 }
 
 .e2{
@@ -26,6 +29,7 @@ left: -300px;
 top: 10px;
 position: relative;
 color: white;
+text-shadow: 1px 1px #000000;
     }
 
 .p1{
@@ -35,6 +39,7 @@ width: 50%;
 position: relative;
 color: white;
 font-weight: bold;
+text-shadow: 1px 1px #000000;
 }
 
 .p2{
@@ -43,6 +48,7 @@ top: 10px;
 position: relative;
 color: white;
 font-weight: bold;
+text-shadow: 1px 1px #000000;
 }
 
 .p3{
@@ -51,24 +57,27 @@ font-weight: bold;
     position: relative;
     color: white;
     font-size: 10px;
+    text-shadow: 1px 1px black;
     }
 
-li{
+    .li1{
+        left: -300px;
+        top: 10px;
+        width: 50%;
+        position: relative;
+        list-style: none;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
+.li2{
 right: -100px;
 top: 10px;
 width: 50%;
 position: relative;
 list-style: none;
 color: white;
-}
-
-.li1{
-    left: -300px;
-    top: 10px;
-    width: 50%;
-    position: relative;
-    list-style: none;
-    color: white;
+text-shadow: 1px 1px black;
 }
 
 
@@ -81,4 +90,4 @@ display: inline-block;
 position: relative;
 right: -100px;
     } 
-
+  
